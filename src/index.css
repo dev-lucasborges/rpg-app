@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+/* Estilizando o texto selecionado com a cor accent */
+::selection {
+  background-color: #f94655; /* Cor de fundo do texto selecionado */
+  color: white; /* Cor do texto enquanto estiver selecionado */
+}
+
+/* Para navegadores como o Firefox */
+::-moz-selection {
+  background-color: #f94655;
+  color: white;
+}
