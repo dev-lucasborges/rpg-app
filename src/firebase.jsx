@@ -3,13 +3,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore"; // Importa Firestore
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDWhJMi4j_yIxUiCnEvESYNkLBMCgxJuEk",
-  authDomain: "rpg-app-e0eec.firebaseapp.com",
-  projectId: "rpg-app-e0eec",
-  storageBucket: "rpg-app-e0eec.appspot.com",
-  messagingSenderId: "439748868965",
-  appId: "1:439748868965:web:fd5a7ba4c9f240ecb57f8c",
-  measurementId: "G-JEKVR80CN4",
+  apiKey: "sua_api_key",
+  authDomain: "", // sua informação
+  projectId: "", // sua informação
+  storageBucket: "", // sua informação
+  messagingSenderId: "", // sua informação
+  appId: "", // sua informação
+  measurementId: "", // sua informação
 };
 
 // Inicializa o Firebase
